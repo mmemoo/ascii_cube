@@ -78,14 +78,6 @@ def add_cube(center,size,yaw,pitch,roll,focal,chars):
     add_tri_for_cube((-1,+1,-1),(-1,+1,+1),(+1,+1,-1),size,center,yaw,pitch,roll,focal,chars[5])
     add_tri_for_cube((+1,+1,+1),(-1,+1,+1),(+1,+1,-1),size,center,yaw,pitch,roll,focal,chars[5])
 
-def get_key():
-    dr,_,_ = select.select([sys.stdin],[],[],0)
-    if dr:
-        return sys.stdin.read(1)
-    return None
-
-
-
 while True:
     tris = []
     board.clear()
