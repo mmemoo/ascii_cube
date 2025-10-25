@@ -1,5 +1,5 @@
 <p align = center>
-<b style="font-size: 90px;">ASCII_CUBE</b><br/>
+<b style="font-size: 90px;">ASCII_CUBE</b><br/><br/>
 <a href="https://github.com/mmemoo/ascii_cube"><img width="400" alt="ASCII_CUBE demo" src="ascii_cube.gif" /></a><br />
 </p>
 
